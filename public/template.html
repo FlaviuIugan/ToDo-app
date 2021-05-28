@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Hello</title>
+  </head>
+  <body>
+    <div class="row d-flex justify-content-center container">
+      <div class="col-md-8">
+        <div class="card-hover-shadow-2x mb-3 card">
+          <div class="card-header-tab card-header">
+            <input
+              class="user-input form-control form-control-lg"
+              type="text"
+              placeholder="Enter To-Do"
+            />
+            <div
+              class="
+                card-header-title
+                font-size-lg
+                text-capitalize
+                font-weight-normal
+              "
+            >
+              <i class="fa fa-tasks"></i>&nbsp;Task Lists
+            </div>
+          </div>
+          <div class="scroll-area-sm">
+            <perfect-scrollbar class="ps-show-limits">
+              <div style="position: static" class="ps ps--active-y">
+                <div class="ps-content">
+                  <ul class="lista list-group list-group-flush"></ul>
+                </div>
+              </div>
+            </perfect-scrollbar>
+          </div>
+          <div class="d-block text-right card-footer">
+            <button class="mr-2 btn btn-link btn-sm">Cancel</button
+            ><button class="btn btn-primary">Add Task</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
