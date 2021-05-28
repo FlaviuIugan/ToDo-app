@@ -1,6 +1,6 @@
 #Todo App with API
 
-> Backend API + fronted for ToDo application.
+> Backend API + frontend for ToDo application.
 
 
 ## Install Dependencies
