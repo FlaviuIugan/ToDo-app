@@ -9,5 +9,3 @@
 > connect to your local MongoDb
 
 ## Run App -> npm start
-
-
